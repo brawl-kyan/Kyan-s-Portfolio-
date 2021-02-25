@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.proof {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    background: linear-gradient(#4cb2b5 0%, #eb5b2f 50%, #4dff00 100%);
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 150px;
+    position: absolute;
+    z-index: 9;
+}
+
+.underline {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio {
+    padding: 50px;
+    padding-left: 320px;
+    text-align: center;
+    font-size: 25px;
+    max-width: 550px;
+    width: 100%;
+    height: 500px;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 15px;
+    z-index: 10;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.list {
+    display: inline;
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.list:hover {
+    background-color: darkcyan;
+}
